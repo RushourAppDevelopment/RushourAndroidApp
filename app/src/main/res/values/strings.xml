@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Business App</string>
+    <string name="title_activity_owner_main">OwnerMainActivity</string>
+    <string name="title_activity_rider_main">RiderMainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string-array name="seats_count">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="vehicle_type">
+        <item>Vehicle Brand</item>
+        <item>Maruti Suzuki</item>
+        <item>Hyundai</item>
+        <item>Honda</item>
+        <item>Tata</item>
+        <item>Ford</item>
+        <item>Chevrolet</item>
+        <item>Datsun</item>
+        <item>Fiat</item>
+        <item>Force</item>
+        <item>Mahindra</item>
+        <item>Mitsubishi</item>
+        <item>Nissan</item>
+        <item>Renault</item>
+        <item>Skoda</item>
+        <item>Toyota</item>
+        <item>Volkswagen</item>
+    </string-array>
+
+
+    <string name="title_activity_tabbed">TabbedActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_tab_main_screen">TabMainScreenActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

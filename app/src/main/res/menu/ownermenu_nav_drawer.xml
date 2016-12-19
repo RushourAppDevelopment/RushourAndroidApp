@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/whiteScreenBackground">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/requestride"
+            android:icon="@drawable/requestride"
+            android:title="Request Ride" />
+        <item
+            android:id="@+id/trackride"
+            android:icon="@drawable/location"
+            android:title="Track Ride" />
+        <item
+            android:id="@+id/history"
+            android:icon="@drawable/history"
+            android:title="History" />
+        <item
+            android:id="@+id/wallet"
+            android:icon="@drawable/wallet"
+            android:title="Wallet" />
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/aboutus"
+            android:icon="@drawable/about_us"
+            android:title="About Us" />
+        <item
+            android:id="@+id/contactus"
+            android:icon="@drawable/contactus"
+            android:title="Contact Us" />
+        <item
+            android:id="@+id/tc"
+            android:icon="@drawable/terms_conditions"
+            android:title="Terms &amp; Conditions" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+    </group>
+</menu>

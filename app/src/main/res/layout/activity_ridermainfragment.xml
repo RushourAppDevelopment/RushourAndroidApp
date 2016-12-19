@@ -1,0 +1,161 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whiteScreenBackground">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_source"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/input_source"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:layout_marginBottom="15dp"
+                android:hint="Source"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_destination"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/input_destination"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:layout_marginBottom="15dp"
+                android:hint="Destination"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1">
+
+            <EditText
+                android:id="@+id/input_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="date"
+                android:layout_marginBottom="15dp"
+                android:hint="Date"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/img_datepicker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/calendarbaseview"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1">
+
+            <EditText
+                android:id="@+id/input_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="time"
+                android:layout_marginBottom="15dp"
+                android:hint="Time"
+                android:layout_weight="1"/>
+
+            <ImageView
+                android:id="@+id/img_timepicker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/clockbase"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/seats"
+                android:layout_width="178dp"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:layout_marginBottom="15dp"
+                android:hint="No.of Seats"
+                android:textSize="16dip"
+                android:layout_weight="0.50" />
+
+            <Spinner
+                android:id="@+id/dropdown_seats"
+                android:layout_width="122dp"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:layout_marginBottom="15dp"
+                android:hint="No.of Seats"
+                android:entries="@array/seats_count"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp">
+
+            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/all_shares"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton android:id="@+id/radio_gents"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Gents"
+                    android:textSize="16dip"
+                    android:textColor="#A9A9A9"
+                    android:checked="true" />
+
+                <RadioButton android:id="@+id/radio_ladies"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Ladies"
+                    android:textSize="16dip"
+                    android:textColor="#A9A9A9" />
+
+                <RadioButton android:id="@+id/radio_all"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="All"
+                    android:textSize="16dip"
+                    android:textColor="#A9A9A9"/>
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_requestride"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:padding="12dp"
+            android:text="REQUEST RIDE"
+            android:textSize="16dip"
+            android:background="@color/backgroundColor"
+            android:textColor="@color/textColor"/>
+
+    </LinearLayout>
+</ScrollView>

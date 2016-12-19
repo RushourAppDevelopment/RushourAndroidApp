@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/requestswitch"
+        android:title="Request Switch"
+        app:showAsAction="ifRoom"
+        android:actionLayout="@layout/activity_switchlayout" />
+</menu>

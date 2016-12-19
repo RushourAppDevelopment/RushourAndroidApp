@@ -1,0 +1,241 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whiteScreenBackground">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_firstname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/input_firstname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:layout_marginBottom="15dp"
+                android:hint="First Name"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_lastname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/input_lastname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:layout_marginBottom="15dp"
+                android:hint="Last Name"/>
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_preferredname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/input_preferredname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:layout_marginBottom="15dp"
+                android:hint="Preferred Name"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:paddingTop="10dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="24dp">
+
+            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/gender"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton android:id="@+id/male"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="Male"
+                    android:layout_gravity="left"
+                    android:onClick="GenderClicked" />
+
+                <RadioButton android:id="@+id/female"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="Female"
+                    android:layout_gravity="right"
+                    android:onClick="GenderClicked"/>
+            </RadioGroup>
+        </LinearLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_mobilenumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/input_mobilenumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:layout_marginBottom="15dp"
+                android:hint="Mobile Number"/>
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_emailid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/input_emailid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:layout_marginBottom="15dp"
+                android:hint="Email ID"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/input_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:layout_marginBottom="15dp"
+                android:hint="Password"/>
+        </android.support.design.widget.TextInputLayout>
+
+
+        <LinearLayout
+            android:id="@+id/btn_uploaddrivinglicense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+            <Button
+                android:id="@+id/btn_drivinglicensefront"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Upload Driving License Front End"/>
+
+            <Button
+                android:id="@+id/btn_drivinglicenseback"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Upload Driving License Back End"/>
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/btn_vehiclerc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:layout_marginBottom="15dp"
+            android:hint="Upload Vehicle RC" />
+
+        <LinearLayout
+            android:id="@+id/btn_uploaddrivinglicenses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:weightSum="1">
+            <EditText
+                android:id="@+id/input_drivinglicenseid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:layout_weight="1"
+                android:hint="Driving License ID"/>
+
+            <EditText
+                android:id="@+id/license_validity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="License Validity"
+                android:layout_weight="0.5" />
+
+            <ImageView
+                android:id="@+id/img_datepicker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/calendarbaseview"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/vehicletype"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+            <Spinner
+                android:id="@+id/dropdown_vehicletype"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:entries="@array/vehicle_type"
+                android:hint="Upload Driving License Front End"/>
+
+            <EditText
+                android:id="@+id/input_vehiclemodel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Eg:Kwid RXL"/>
+
+        </LinearLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_vehicleregistrationnumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/input_vehicleregistrationnumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:layout_marginBottom="15dp"
+                android:hint="Vehicle Registration Number"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <CheckBox android:id="@+id/checkbox_agree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I agree to the Terms &amp; Conditions"/>
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:padding="12dp"
+            android:text="REGISTER"
+            android:textSize="16dip"
+            android:background="@color/backgroundColor"
+            android:textColor="@color/textColor"/>
+
+    </LinearLayout>
+</ScrollView>
