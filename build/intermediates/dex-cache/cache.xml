@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/deepak/Desktop/Rushour/BusinessApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="/Users/deepak/Desktop/Rushour/BusinessApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.0.1_15f892b184e9007db912b93cc65f975b33cf1fcc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/deepak/Desktop/Rushour/BusinessApp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="/Users/deepak/Desktop/Rushour/BusinessApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.0.1_b3558e61245bcb4284a42d0cf44f44072fd1b961.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/deepak/Desktop/Rushour/BusinessApp/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
+        <dex dex="/Users/deepak/Desktop/Rushour/BusinessApp/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.0.1_be0c7a35e0284051221d07efc14beed083b62c5b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/deepak/Desktop/Rushour/BusinessApp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="/Users/deepak/Desktop/Rushour/BusinessApp/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_0e22842c1f3e8c0b73a12ecdaeb650226763dd00.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/deepak/Desktop/Rushour/BusinessApp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="/Users/deepak/Desktop/Rushour/BusinessApp/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_47319fa8a4cc3ded5d0cb8137c12bf9860396c6d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/deepak/Desktop/Rushour/BusinessApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="/Users/deepak/Desktop/Rushour/BusinessApp/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.0.1_e87407bccf7812b29087ce962b19d7cd0d2bd869.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/deepak/Desktop/Rushour/BusinessApp/app/build/intermediates/exploded-aar/com.android.support/transition/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
+        <dex dex="/Users/deepak/Desktop/Rushour/BusinessApp/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.0.1_0d18f4df6f49236cf6ff20132864ed2caf6a5f24.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/deepak/Desktop/Rushour/BusinessApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="cf9a9932c042d33786dafea0567d9fbf7d8d7476">
+        <dex dex="/Users/deepak/Desktop/Rushour/BusinessApp/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_511ceef8d28f81dbd981aa4d6b00a7c5d8e66e42.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/deepak/Desktop/Rushour/BusinessApp/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
+        <dex dex="/Users/deepak/Desktop/Rushour/BusinessApp/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.0.1_04bf9e656a441b07a47a5b11a54d8fc2fdfe336d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/deepak/Desktop/Rushour/BusinessApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="/Users/deepak/Desktop/Rushour/BusinessApp/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.0.1_44115450f3037e10995f8be1e19fb74c2366c8a3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/deepak/Desktop/Rushour/BusinessApp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/deepak/Desktop/Rushour/BusinessApp/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_35913900ba65384aed25b33fdfb4aa2f70af1994.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/deepak/Desktop/Rushour/BusinessApp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="/Users/deepak/Desktop/Rushour/BusinessApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.0.1_f6cefed8060212b8eee227ce9034058534c5e3ba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/deepak/Desktop/Rushour/BusinessApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/deepak/Desktop/Rushour/BusinessApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.0.1_8647d39bb7448db77510784501fac7998a672269.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/deepak/Desktop/Rushour/BusinessApp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="/Users/deepak/Desktop/Rushour/BusinessApp/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_6f152335124db9644e87cf2bb697a4fc92d1e056.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/deepak/Desktop/Rushour/BusinessApp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="/Users/deepak/Desktop/Rushour/BusinessApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.0.1_1d7a8b11033334c060f933373a5b7826312a1b5b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/deepak/Desktop/Rushour/BusinessApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="/Users/deepak/Desktop/Rushour/BusinessApp/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_14c02d0e0e70e036cabc53935a2b60bf809ac2bb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/deepak/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="/Users/deepak/Desktop/Rushour/BusinessApp/app/build/intermediates/pre-dexed/debug/support-annotations-25.0.1_0d6856fe9e5cd30105e73ed6689d3da07561952e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/deepak/Desktop/Rushour/BusinessApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="/Users/deepak/Desktop/Rushour/BusinessApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.0.1_6c94c0410fd08d3f7c53399ad619feabcfaf50cd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/deepak/Desktop/Rushour/BusinessApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="729428076ee747cbce0711482cccc87ccc478bb2">
+        <dex dex="/Users/deepak/Desktop/Rushour/BusinessApp/app/build/intermediates/pre-dexed/debug/instant-run_53d8499a1ca983d24f864695c34901b90cd9d1cc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/deepak/Desktop/Rushour/BusinessApp/app/build/intermediates/exploded-aar/com.pkmmte.view/circularimageview/1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c341a7ad32bc2eef9dcfab239262b77ac60788cc">
+        <dex dex="/Users/deepak/Desktop/Rushour/BusinessApp/app/build/intermediates/pre-dexed/debug/com.pkmmte.view-circularimageview-1.1_027f69c260f23c87641cf941c45177bec57446a2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/deepak/Desktop/Rushour/BusinessApp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="/Users/deepak/Desktop/Rushour/BusinessApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.0.1_66348473b9779167c029f1093dae7fd1d5f16887.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/deepak/Desktop/Rushour/BusinessApp/app/build/intermediates/exploded-aar/pl.droidsonroids.gif/android-gif-drawable/1.2.3/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="75d15557ff7531e59b01362d46bb06dd59c5f971">
+        <dex dex="/Users/deepak/Desktop/Rushour/BusinessApp/app/build/intermediates/pre-dexed/debug/pl.droidsonroids.gif-android-gif-drawable-1.2.3_0575d23043d1e0d575cb99767d6005f91d345b33.jar" />
+    </item>
+
+</items>
